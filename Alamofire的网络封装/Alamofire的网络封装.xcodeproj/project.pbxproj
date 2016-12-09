@@ -12,6 +12,7 @@
 		61B008E31DFA9DAD00E4B71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B008E11DFA9DAD00E4B71E /* Main.storyboard */; };
 		61B008E51DFA9DAD00E4B71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B008E41DFA9DAD00E4B71E /* Assets.xcassets */; };
 		61B008E81DFA9DAD00E4B71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B008E61DFA9DAD00E4B71E /* LaunchScreen.storyboard */; };
+		61B008F01DFA9EF600E4B71E /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B008EF1DFA9EF600E4B71E /* NetworkTools.swift */; };
 		E71C8F51AB0D09D47B177DAC /* Pods_Alamofire_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EFEFEBF4616B004DBCEB93 /* Pods_Alamofire_____.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +24,8 @@
 		61B008E41DFA9DAD00E4B71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61B008E71DFA9DAD00E4B71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61B008E91DFA9DAD00E4B71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3EFEFEBF4616B004DBCEB93 /* Pods_Alamofire_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B008EF1DFA9EF600E4B71E /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		D3EFEFEBF4616B004DBCEB93 /* Pods_Alamofire_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Alamofire_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85FC75F3A0E635685366BC2 /* Pods-Alamofire的网络封装.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire的网络封装.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire的网络封装/Pods-Alamofire的网络封装.debug.xcconfig"; sourceTree = "<group>"; };
 		F6BFAC8FAE8E206640E7F60A /* Pods-Alamofire的网络封装.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire的网络封装.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire的网络封装/Pods-Alamofire的网络封装.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				61B008E41DFA9DAD00E4B71E /* Assets.xcassets */,
 				61B008E61DFA9DAD00E4B71E /* LaunchScreen.storyboard */,
 				61B008E91DFA9DAD00E4B71E /* Info.plist */,
+				61B008EF1DFA9EF600E4B71E /* NetworkTools.swift */,
 			);
 			path = "Alamofire的网络封装";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B008F01DFA9EF600E4B71E /* NetworkTools.swift in Sources */,
 				61B008E01DFA9DAD00E4B71E /* ViewController.swift in Sources */,
 				61B008DE1DFA9DAD00E4B71E /* AppDelegate.swift in Sources */,
 			);
@@ -377,6 +381,7 @@
 				61B008EE1DFA9DAD00E4B71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
